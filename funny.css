@@ -1,0 +1,14 @@
+.prime{
+    
+    border: solid rgb(43, 43, 43);
+    border-width:1px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    row-gap:5px;
+    margin-bottom:20px;
+
+}
+
