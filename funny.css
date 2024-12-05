@@ -11,4 +11,18 @@
     margin-bottom:20px;
 
 }
+.subdiv{
+    border:solid #303a50;
+    border-radius:3px;
+    border-width:1px;
+    background-color:;
+    color:greenyellow;
+    padding:4px;
+    margin-bottom: 20px;
+}
+.strk{
+    text-decoration: line-through;
+    text-decoration-color:greenyellow;
+    
+}
 
