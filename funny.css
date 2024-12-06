@@ -26,3 +26,55 @@
     
 }
 
+    
+
+.mailbox-inside::before{
+    content: '     ';
+    position: absolute;
+    
+    height:20px;
+    width: 20px;
+    background-image:url('png-transparent-computer-icons-email-email-miscellaneous-trademark-logo.png');
+    background-size: contain;
+    border-radius:50%;
+    color:wheat;
+    left:0;
+    translate: 10px;
+
+    margin-left:3px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    
+    
+}
+.mailbox::after{
+    content:'Note';
+    position: absolute;
+    color:white;
+    left:0;
+    translate:15px -30px;
+    
+    background-color:#0a0e12;
+}
+.mailbox{
+    color:white;
+    border: solid #303a50;
+    border-width:1px;
+    border-radius: 5px;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    row-gap:5px;
+    margin-bottom:20px;
+    
+    text-decoration: underline;
+    padding: 20px;
+    padding-left:30px;
+    
+}
+.mailbox-inside{
+    margin-left:15 px;
+}
+
